@@ -1,0 +1,181 @@
+
+@font-face {
+    font-family: "GillSans";
+    font-style: normal;
+    font-weight: normal;
+    src: url("/fonts/GillSans-01.ttf"); /*URL to font*/
+}
+
+@font-face {
+    font-family: "GillSans";
+    font-style: italic;
+    font-weight: normal;/*a name to be used later*/
+    src: url("/fonts/GillSans-Italic-03.ttf"); /*URL to font*/
+}
+
+
+@font-face {
+    font-family: "GillSans";
+    font-style: normal;
+    font-weight: bold;/*a name to be used later*/
+    src: url("/fonts/GillSans-Bold-02.ttf"); /*URL to font*/
+}
+
+@font-face {
+    font-family: "GillSans";
+    font-style: italic;
+    font-weight: bold;/*a name to be used later*/
+    src: url("/fonts/GillSans-BoldItalic-04.ttf"); /*URL to font*/
+}
+
+@font-face {
+    font-family: "GillSans";
+    font-style: normal;
+    font-weight: 600;
+    src: url("/fonts/GillSans-SemiBold-05.ttf"); /*URL to font*/
+}
+
+@font-face {
+    font-family: "GillSans";
+    font-style: italic;
+    font-weight: 600;
+    src: url("/fonts/GillSans-SemiBoldItalic-06.ttf"); /*URL to font*/
+}
+
+
+body {
+    font-family: "GillSans", sans-serif;
+    margin: 0px;
+    background-image: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(250,255,250,1) 100%);
+}
+
+.header, .bottom {
+    width: 100%;
+}
+
+.header {
+    top: 0px;
+    height: 12%;
+    position: fixed;
+    background-color: #FFFFFF;
+    display: flex;
+}
+
+.headerButtons {
+    font-size: 2.25em;
+    font-weight: normal;
+    margin: auto 10% auto auto;
+    display: flex;
+}
+
+.headerButtons a {
+    text-decoration: none;
+}
+
+.headerButtons a, a:visited, a:active {
+  color: inherit;
+}
+
+.headerButtons a:hover {
+    color: #1D731D;
+}
+
+.headerButtons a#AboutUs {
+    margin-left: 25px;
+}
+
+.logo {
+    font-size: 3.75rem;
+    margin: auto auto auto 10%;
+}
+
+.logo p {
+    background: -webkit-linear-gradient(0, #3DBC4D, #1F822E);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-style: italic;
+    font-weight: 600;
+    margin: 0px;
+}
+
+.sections {
+    padding: 12% 5% 0 5%;
+}
+
+.introSection, .gamesSection, .teamSection {
+    margin-top: 8%;
+}
+
+.textSection h1 {
+    font-size: 4.5em;
+    font-weight: bold;
+}
+
+.textSection h2 {
+    font-size: 2.125rem;
+    color: #1D731D;
+    font-weight: 600;
+}
+
+.textSection h3 {
+    font-size: 3.25rem;
+    font-weight: 600;
+}
+
+.textSection p {
+    font-size: 1.75rem;
+    font-weight: normal;
+}
+
+.introSection, .gamesSection, .teamSection {
+    overflow: auto;
+}
+
+.introSection img {
+    width: 25%;
+}
+
+.introSection img#IntroSectionPhotoLeft {
+    float:left;
+}
+
+.introSection img#IntroSectionPhotoRight {
+    float: right;
+}
+
+
+.introSection .textSection {
+    margin: auto;
+    text-align: center;
+    width: 50%;
+}
+
+
+.gamesSection img {
+    margin-top: 5%;
+    width: 45%;
+    float: right;
+}
+
+.gamesSection .textSection {
+    width: 55%;
+}
+
+.teamSection img {
+    margin-top: 5%;
+    width: 50%;
+}
+
+.teamSection .textSection {
+    width: 45%;
+    float: right;
+}
+
+@media screen and (max-aspect-ratio: 3/3)  {
+  .introSection img {
+    width: 50%;
+  }
+  .gamesSection img, .gamesSection .textSection, .teamSection img, .introSection .textSection, .teamSection .textSection {
+    width: 100%;
+  }
+}
