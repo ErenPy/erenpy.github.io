@@ -89,7 +89,7 @@ body {
     margin: auto auto auto 10%;
 }
 
-.logo {
+.logo a#Logo {
     background: -webkit-linear-gradient(0, #3D4ABC, #1F7682);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
