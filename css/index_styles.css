@@ -77,7 +77,7 @@ body {
 }
 
 .headerButtons a:hover {
-    color: #1D731D;
+    color: #0093E5;
 }
 
 .headerButtons a#AboutUs {
@@ -169,6 +169,13 @@ body {
 .teamSection .textSection {
     width: 45%;
     float: right;
+}
+
+.bottom {
+    bottom: 0px;
+    height: 12%;
+    background-color: #F0F4FF;
+    display: flex;
 }
 
 @media screen and (max-aspect-ratio: 3/3)  {
