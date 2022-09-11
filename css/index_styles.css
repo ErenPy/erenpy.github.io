@@ -99,7 +99,7 @@ body {
 }
 
 .sections {
-    padding: 12% 5% 0 5%;
+    padding: 12% 7.5% 0 7.5%;
 }
 
 .introSection, .gamesSection, .teamSection, .shareSection {
@@ -107,18 +107,18 @@ body {
 }
 
 .textSection h1 {
-    font-size: 4.5em;
+    font-size: 3.5em;
     font-weight: bold;
 }
 
 .textSection h2 {
     font-size: 2.125rem;
-    color: #1D731D;
+    color: #0093E5;
     font-weight: 600;
 }
 
 .textSection h3 {
-    font-size: 3.25rem;
+    font-size: 2.75rem;
     font-weight: 600;
 }
 
