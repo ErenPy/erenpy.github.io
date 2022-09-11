@@ -84,12 +84,12 @@ body {
     margin-left: 120px;
 }
 
-a:logo {
+.logo a:Logo {
     font-size: 3.75rem;
     margin: auto auto auto 10%;
 }
 
-a:logo p {
+.logo a:Logo p {
     background: -webkit-linear-gradient(0, #3D4ABC, #1F7682);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
