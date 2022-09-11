@@ -183,7 +183,21 @@ body {
 }
 
 .bottom .logo {
-    margin-top: 2%;
+    margin: 2.5% auto auto auto;
+}
+
+.bottom .textSection {
+    margin-left: 10%;
+    width: 60%;
+}
+
+.bottom .PrvPolicy {
+    margin-top: 2.5%;
+}
+
+.bottom .CpRight {
+    margin-top: 2.5%;
+    margin-bottom: 5%;
 }
 
 @media screen and (max-aspect-ratio: 3/3)  {
