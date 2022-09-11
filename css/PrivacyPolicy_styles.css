@@ -62,7 +62,7 @@ body {
 }
 
 .headerButtons {
-  font-size: 2.25em;
+  font-size: 1.5em;
   font-weight: normal;
   margin: auto 10% auto auto;
   display: flex;
@@ -81,7 +81,7 @@ color: inherit;
 }
 
 .headerButtons a#AboutUs {
-  margin-left: 25px;
+  margin-left: 120px;
 }
 
 .logo {
@@ -89,8 +89,8 @@ color: inherit;
   margin: auto auto auto 10%;
 }
 
-.logo p {
-  background: -webkit-linear-gradient(0, #3DBC4D, #1F822E);
+.logo a#Logo {
+  background: -webkit-linear-gradient(0, #3D4ABC, #1F7682);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-style: italic;
@@ -129,4 +129,43 @@ color: inherit;
 
 .privacySection .strong{
   font-weight: 600;
+}
+
+.bottom {
+  bottom: 0px;
+  height: 12%;
+  background-color: #F0F4FF;
+  display: flex;
+}
+
+.bottom .logo {
+  margin: 2.5% auto auto auto;
+}
+
+.bottom .textSection {
+  margin-left: 10%;
+  width: 60%;
+}
+
+.bottom .PrvPolicy {
+  margin-top: 2.5%;
+  font-size: 1.5em;
+  font-weight: normal;
+}
+
+.PrvPolicy a {
+  text-decoration: none;
+}
+
+.PrvPolicy a, a:visited, a:active {
+color: inherit;
+}
+
+.PrvPolicy a:hover {
+  color: #0093E5;
+}
+
+.bottom .CpRight {
+  margin-top: 2.5%;
+  margin-bottom: 5%;
 }
