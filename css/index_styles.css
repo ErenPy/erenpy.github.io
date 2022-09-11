@@ -193,6 +193,20 @@ body {
 
 .bottom .PrvPolicy {
     margin-top: 2.5%;
+    font-size: 1.5em;
+    font-weight: normal;
+}
+
+.PrvPolicy a {
+    text-decoration: none;
+}
+
+.PrvPolicy a, a:visited, a:active {
+  color: inherit;
+}
+
+.PrvPolicy a:hover {
+    color: #0093E5;
 }
 
 .bottom .CpRight {
