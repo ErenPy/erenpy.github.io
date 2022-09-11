@@ -171,11 +171,19 @@ body {
     float: right;
 }
 
+.shareSection {
+    text-align: center;
+}
+
 .bottom {
     bottom: 0px;
     height: 12%;
     background-color: #F0F4FF;
     display: flex;
+}
+
+.bottom .logo {
+    margin-top: 2%;
 }
 
 @media screen and (max-aspect-ratio: 3/3)  {
