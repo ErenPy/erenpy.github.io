@@ -1,32 +1,128 @@
+
+@font-face {
+  font-family: "GillSans";
+  font-style: normal;
+  font-weight: normal;
+  src: url("/fonts/GillSans-01.ttf"); /*URL to font*/
+}
+
+@font-face {
+  font-family: "GillSans";
+  font-style: italic;
+  font-weight: normal;/*a name to be used later*/
+  src: url("/fonts/GillSans-Italic-03.ttf"); /*URL to font*/
+}
+
+
+@font-face {
+  font-family: "GillSans";
+  font-style: normal;
+  font-weight: bold;/*a name to be used later*/
+  src: url("/fonts/GillSans-Bold-02.ttf"); /*URL to font*/
+}
+
+@font-face {
+  font-family: "GillSans";
+  font-style: italic;
+  font-weight: bold;/*a name to be used later*/
+  src: url("/fonts/GillSans-BoldItalic-04.ttf"); /*URL to font*/
+}
+
+@font-face {
+  font-family: "GillSans";
+  font-style: normal;
+  font-weight: 600;
+  src: url("/fonts/GillSans-SemiBold-05.ttf"); /*URL to font*/
+}
+
+@font-face {
+  font-family: "GillSans";
+  font-style: italic;
+  font-weight: 600;
+  src: url("/fonts/GillSans-SemiBoldItalic-06.ttf"); /*URL to font*/
+}
+
+
 body {
-  margin: 5%;
+  font-family: "GillSans", sans-serif;
+  margin: 0px;
+  background-image: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(250,255,250,1) 100%);
 }
 
-h1, h2, h3 {
-  font-family: "Trebuchet MS", Helvetica, sans-serif;
+.header, .bottom {
+  width: 100%;
 }
 
-h1 {
-  margin-right: 50%;
-  padding-bottom: 20px;
-  border-bottom: 3px solid darkblue;
-  font-size: 200%;
+.header {
+  top: 0px;
+  height: 12%;
+  position: fixed;
+  background-color: #FFFFFF;
+  display: flex;
 }
 
-h2{
-  font-size: 150%;
+.headerButtons {
+  font-size: 2.25em;
+  font-weight: normal;
+  margin: auto 10% auto auto;
+  display: flex;
 }
 
-h3 {
-  font-size: 133%;
+.headerButtons a {
+  text-decoration: none;
 }
 
-p {
-  font-family: Georgia, serif;
-  color: gray;
-  line-height: 1.5625;
+.headerButtons a, a:visited, a:active {
+color: inherit;
 }
 
-b {
-  color: dimGray;
+.headerButtons a:hover {
+  color: #1D731D;
+}
+
+.headerButtons a#AboutUs {
+  margin-left: 25px;
+}
+
+.logo {
+  font-size: 3.75rem;
+  margin: auto auto auto 10%;
+}
+
+.logo p {
+  background: -webkit-linear-gradient(0, #3DBC4D, #1F822E);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-style: italic;
+  font-weight: 600;
+  margin: 0px;
+}
+
+.sections {
+  padding: 12% 10% 0 10%;
+}
+
+.privacySection {
+  margin-top: 6%;
+}
+
+.privacySection h1 {
+  font-size: 4.5em;
+  font-weight: bold;
+}
+
+.privacySection h2 {
+  font-size: 2.125rem;
+  color: #1D731D;
+  font-weight: 600;
+}
+
+.privacySection h3 {
+  font-size: 3.25rem;
+  font-weight: 600;
+}
+
+.privacySection p {
+  font-size: 1.75rem;
+  font-weight: normal;
 }
