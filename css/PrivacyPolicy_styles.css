@@ -99,7 +99,7 @@ color: inherit;
 }
 
 .sections {
-  padding: 12% 10% 0 10%;
+  padding: 12% 20% 0 20%;
 }
 
 .privacySection {
@@ -125,4 +125,8 @@ color: inherit;
 .privacySection p {
   font-size: 1.75rem;
   font-weight: normal;
+}
+
+.strong{
+  font-weight: 600;
 }
