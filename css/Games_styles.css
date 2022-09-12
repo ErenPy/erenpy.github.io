@@ -130,9 +130,9 @@ p {
 }
 
 .gamesSection {
-    overflow: auto;
     margin: 5%;
     display: flex;
+    flex-wrap: wrap;
 }
 
 .gameContainer {
@@ -173,10 +173,8 @@ p {
 }
 
 @media screen and (max-aspect-ratio: 3/3)  {
-  .introSection img {
-    width: 50%;
-  }
-  .gamesSection img, .gamesSection .textSection, .teamSection img, .introSection .textSection, .teamSection .textSection {
-    width: 100%;
-  }
+  .gameContainer {
+    flex: 40%;
+    padding: 30px;
+    }
 }
