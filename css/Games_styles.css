@@ -81,6 +81,7 @@ h3 {
 p {
     font-size: 1.5em;
     font-weight: normal;
+    text-align: center;
 }
 
 .header, .bottom {
@@ -130,10 +131,18 @@ p {
 
 .gamesSection {
     overflow: auto;
+    margin: 5%;
+    display: flex;
 }
 
-.gameContainer img {
-    width: 25%;
+.gameContainer {
+    flex: 25%;
+    padding: 20px;
+}
+
+.gameContainer input {
+    width: 100%;
+    border-radius: 50px;
 }
 
 .bottom {
