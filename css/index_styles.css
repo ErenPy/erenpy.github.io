@@ -215,10 +215,13 @@ body {
 }
 
 @media screen and (max-aspect-ratio: 3/3)  {
-  .introSection img {
-    width: 50%;
-  }
-  .gamesSection img, .gamesSection .textSection, .teamSection img, .introSection .textSection, .teamSection .textSection {
-    width: 100%;
-  }
+    .introSection, .gamesSection, .teamSection, .shareSection {
+        margin-top: 16%;
+    }
+    .introSection img {
+        width: 50%;
+    }
+    .gamesSection img, .gamesSection .textSection, .teamSection img, .introSection .textSection, .teamSection .textSection {
+        width: 100%;
+    }
 }

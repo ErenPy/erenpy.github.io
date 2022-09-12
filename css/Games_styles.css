@@ -54,7 +54,7 @@ a {
 }
 
 a, a:visited, a:active {
-  color: inherit;
+    color: inherit;
 }
 
 a:hover {
@@ -173,8 +173,11 @@ p {
 }
 
 @media screen and (max-aspect-ratio: 3/3)  {
-  .gameContainer {
-    flex: 40%;
-    padding: 30px;
+    .gameContainer {
+        flex: 40%;
+        padding: 30px;
+    }
+    .gamesSection, .titleSection {
+        margin-top: 16%;
     }
 }
