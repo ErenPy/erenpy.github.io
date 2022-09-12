@@ -174,7 +174,7 @@ p {
 
 @media screen and (max-aspect-ratio: 3/3)  {
     .founderContainer {
-        flex: 40%;
+        flex: 100%;
         padding: 30px;
     }
     .titleSection, .founderSection {
