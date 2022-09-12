@@ -1,0 +1,183 @@
+
+@font-face {
+    font-family: "GillSans";
+    font-style: normal;
+    font-weight: normal;
+    src: url("/fonts/GillSans-01.ttf"); /*URL to font*/
+}
+
+@font-face {
+    font-family: "GillSans";
+    font-style: italic;
+    font-weight: normal;/*a name to be used later*/
+    src: url("/fonts/GillSans-Italic-03.ttf"); /*URL to font*/
+}
+
+
+@font-face {
+    font-family: "GillSans";
+    font-style: normal;
+    font-weight: bold;/*a name to be used later*/
+    src: url("/fonts/GillSans-Bold-02.ttf"); /*URL to font*/
+}
+
+@font-face {
+    font-family: "GillSans";
+    font-style: italic;
+    font-weight: bold;/*a name to be used later*/
+    src: url("/fonts/GillSans-BoldItalic-04.ttf"); /*URL to font*/
+}
+
+@font-face {
+    font-family: "GillSans";
+    font-style: normal;
+    font-weight: 600;
+    src: url("/fonts/GillSans-SemiBold-05.ttf"); /*URL to font*/
+}
+
+@font-face {
+    font-family: "GillSans";
+    font-style: italic;
+    font-weight: 600;
+    src: url("/fonts/GillSans-SemiBoldItalic-06.ttf"); /*URL to font*/
+}
+
+
+body {
+    font-family: "GillSans", sans-serif;
+    margin: 0px;
+    background-image: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(240,244,255,1) 100%);
+}
+
+a {
+    text-decoration: none;
+}
+
+a, a:visited, a:active {
+    color: inherit;
+}
+
+a:hover {
+    color: #0093E5;
+}
+
+h1 {
+    font-size: 3.5em;
+    font-weight: bold;
+    text-align: center;
+}
+
+h2 {
+    font-size: 2em;
+    color: #0093E5;
+    font-weight: 600;
+}
+
+h3 {
+    font-size: 2.5em;
+    font-weight: 600;
+}
+
+p {
+    font-size: 1.5em;
+    font-weight: normal;
+    text-align: center;
+}
+
+.header, .bottom {
+    width: 100%;
+}
+
+.header {
+    top: 0px;
+    height: 12%;
+    position: fixed;
+    background-color: #FFFFFF;
+    display: flex;
+}
+
+.headerButtons {
+    font-size: 1.5em;
+    font-weight: normal;
+    margin: auto 10% auto auto;
+    display: flex;
+}
+
+.headerButtons a#AboutUs {
+    margin-left: 120px;
+}
+
+.logo {
+    font-size: 3.75rem;
+    margin: auto auto auto 10%;
+}
+
+.logo a#Logo {
+    background: -webkit-linear-gradient(0, #3D4ABC, #1F7682);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-style: italic;
+    font-weight: 600;
+    margin: 0px;
+}
+
+.sections {
+    padding: 12% 10% 0 10%;
+}
+
+.titleSection, .founderSection {
+    margin-top: 8%;
+}
+
+.founderSection {
+    margin: 5%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.founderContainer {
+    flex: 20%;
+    padding: 20px;
+}
+
+.founderContainer img {
+    width: 100%;
+    border-radius: 20%;
+}
+
+.bottom {
+    bottom: 0px;
+    height: 12%;
+    background-color: #F0F4FF;
+    display: flex;
+}
+
+.bottom .logo {
+    margin: 2.5% auto auto auto;
+}
+
+.bottom .textSection {
+    margin-left: 10%;
+    width: 60%;
+}
+
+.bottom .PrvPolicy {
+    margin-top: 2.5%;
+    font-size: 1.5em;
+    font-weight: normal;
+}
+
+.bottom .CpRight {
+    margin-top: 2.5%;
+    margin-bottom: 5%;
+}
+
+@media screen and (max-aspect-ratio: 3/3)  {
+    .founderContainer {
+        flex: 40%;
+        padding: 30px;
+    }
+    .titleSection, .founderSection {
+        margin-top: 16%;
+    }
+}
