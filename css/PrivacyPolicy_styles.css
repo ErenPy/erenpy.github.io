@@ -47,6 +47,7 @@ body {
   font-family: "GillSans", sans-serif;
   margin: 0px;
   background-image: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(240,244,255,1) 100%);
+  text-justify: auto;
 }
 
 .header, .bottom {
@@ -99,7 +100,7 @@ color: inherit;
 }
 
 .sections {
-  padding: 12% 7.5% 0 7.5%;
+  padding: 12% 10% 0 10%;
 }
 
 .privacySection {
@@ -109,10 +110,11 @@ color: inherit;
 .privacySection h1 {
   font-size: 3.5em;
   font-weight: bold;
+  
 }
 
 .privacySection h2 {
-  font-size: 2.125rem;
+  font-size: 2em;
   color: #0093E5;
   font-weight: 600;
 }
@@ -123,12 +125,25 @@ color: inherit;
 }
 
 .privacySection p {
-  font-size: 1.75rem;
+  font-size: 1.5em;
   font-weight: normal;
+  text-align: justify;
 }
 
 .privacySection .strong{
   font-weight: 600;
+}
+
+a {
+  text-decoration: none;
+}
+
+a, a:visited, a:active {
+color: inherit;
+}
+
+a:hover {
+  color: #0093E5;
 }
 
 .bottom {
